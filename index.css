@@ -1,0 +1,14 @@
+/* NOTE: This file must be plain CSS (no Tailwind directives), because Google AI Studio serves it as-is. */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* Better range slider visibility on dark background */
+input[type='range'] {
+  accent-color: #fbbf24;
+}
